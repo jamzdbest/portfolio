@@ -1,0 +1,143 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+.container {
+width : 100%;
+min-height : 100px;
+}
+.name-and-photo {
+position : relative;
+display : flex;
+flex-direction : column;
+justify-content : center;
+align-items : center;
+}
+.photo-id {
+width : 150px;
+object-fit : cover;
+object-position : right;
+margin-top : 30px;
+margin-left : 30px;
+margin-bottom : 10px;
+border : black solid 1px;
+}
+
+.fullname {
+margin-left : 22px;
+text-decoration : underline;
+font-weight : 700;
+font-size : 28px;
+font-family: 'Ubuntu', sans-serif;
+}
+.fullname.enlarge{
+font-size: 50px;
+color: crimson;
+}
+.contact-info {
+margin-top : 30px;
+margin-left : 5px;
+margin-right : 10px;
+vertical-align : top;
+line-height : 30px;
+margin-bottom : 10px;
+}
+.contact-info a {
+font-size : 14px;
+color: #2121e6;
+text-decoration: underline;
+}
+.material-icons {
+margin-left : 10px;
+font-size : 20px;
+padding-left: 15px;
+}
+h2 {
+font-size : 25px;
+padding : 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-family: 'Ubuntu', sans-serif;
+}
+.headInfo{
+font-size: 35px;
+}
+.upper {
+display : grid;
+grid-template-columns : 1fr 1fr;
+}
+.personal-statement {
+padding-left: 30px;
+text-indent: 50px;
+margin-top : 10px;
+margin-right : 10px;
+margin-left : 10px;
+font-size : 12px;
+display : block;
+font-family: 'Poppins', sans-serif;
+}
+.left-and-right-container {
+display : grid;
+grid-template-columns : 1fr 10px 1fr;
+border-bottom : 10px;
+}
+.vl {
+border-left : 4px solid crimson;
+margin-top : 10px;
+}
+.vl, .left, .right {
+display : inline-block;
+vertical-align : top;
+margin: 0 5px;
+border-bottom : 10px;
+padding: 20px;
+padding-top: 5px;
+}
+.left{
+    padding-left: 50px;
+}
+.left li, .right li {
+font-size : 12px;
+font-family: 'Poppins', sans-serif;
+margin-left : 20px;
+}
+.toHomeBtn a{
+    color: white;
+    background: crimson;
+    padding:5px;
+    margin: 26px 50px;
+    margin-bottom: 63px;
+    display: inline-block;
+}
+.toHomeBtn a:hover{
+    color: aquamarine;
+    background: crimson;
+}
+.downloadBtn a{
+    color: white;
+    background: crimson;
+    padding:5px;
+    margin: 26px 50px;
+    display: inline-block;
+}
+.downloadBtn a:hover{
+    color: aquamarine;
+    background: crimson;
+}
+.buttons{
+    position: relative;
+    display: flex;
+}
+@media (max-width: 360px) {
+.upper{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+}
